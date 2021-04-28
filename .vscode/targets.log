@@ -1,0 +1,364 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Wed Apr 28 12:18:57 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+# makefile (from `makefile', line 6)
+SRC = project_main.c src/user_utils.c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/SWATHI/Documents/GitHub/Emb-C
+# default
+SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
+# environment
+ProgramFiles(x86) = C:\Program Files (x86)
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+SystemRoot = C:\WINDOWS
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\SWATHI\AppData\Roaming\Code\CachedData\3c4e3df9e89829dce27b7b5c24508306b151f30d
+# environment
+RegionCode = APJ
+# environment
+TMP = C:\Users\SWATHI\AppData\Local\Temp
+# environment
+OnlineServices = Online Services
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+SystemDrive = C:
+# environment
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+# environment
+doxygen = C:\Program Files\doxygen\bin\doxywizard.exe
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-74c8a7f4-acc9-4c5e-b3cf-effb9a3f9805-sock
+# environment
+platformcode = AN
+# environment
+VSCODE_CWD = C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C;C:\Users\SWATHI\AppData\Local\Microsoft\WindowsApps;C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SWATHI\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Dr. Memory\bin\
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\SWATHI
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+ComSpec = C:\WINDOWS\system32\cmd.exe
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+ProgramW6432 = C:\Program Files
+# automatic
+%F = $(notdir $%)
+# makefile (from `makefile', line 15)
+FixPath = $(subst /,\,$1)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18860_LGEJJCMALOREMPFN
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = LAPTOP-INA4C695
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+AVR32_HOME = C:\WinAVR-20100110
+# environment
+USERNAME = SWATHI
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+CommonProgramW6432 = C:\Program Files\Common Files
+# environment
+ProgramData = C:\ProgramData
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LOGONSERVER = \\LAPTOP-INA4C695
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-INA4C695
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `makefile', line 17)
+CC = avr-gcc.exe
+# makefile (from `makefile', line 3)
+BUILD_DIR = Build
+# makefile (from `makefile', line 19)
+AVR_OBJ_CPY = avr-objcopy.exe
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# environment
+OneDrive = C:\Users\SWATHI\OneDrive
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+DriverData = C:\Windows\System32\Drivers\DriverData
+# environment
+LOCALAPPDATA = C:\Users\SWATHI\AppData\Local
+# default
+MAKE_COMMAND := make.exe
+# makefile (from `makefile', line 10)
+INC = -I inc
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+OneDriveConsumer = C:\Users\SWATHI\OneDrive
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ca0f3ff9c970df31866e8717d8e00ff3-1.55.2-main-sock
+# environment
+HOMEPATH = \Users\SWATHI
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+windir = C:\WINDOWS
+# automatic
++F = $(notdir $+)
+# default
+SUFFIXES := 
+# environment
+APPDATA = C:\Users\SWATHI\AppData\Roaming
+# environment
+TEMP = C:\Users\SWATHI\AppData\Local\Temp
+# environment
+SIMPPncSimCoSimDLL = C:\Program Files\AnsysEM\AnsysEM19.2\Win64\SIMPncSimCoSim.dll:LoadCoSimInterface
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# automatic
+^F = $(notdir $^)
+# environment
+ProgramFiles = C:\Program Files (x86)
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 7e05
+# makefile (from `makefile', line 1)
+PROJ_NAME = Blinky
+# environment
+SIMPLORER_HOME = C:\Program Files\AnsysEM\AnsysEM19.2\Win64
+# environment
+MAKELEVEL := 0
+# environment
+SIWAVE_INSTALL_DIR = C:\Program Files\AnsysEM\AnsysEM19.2\Win64
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+SIMPMSCoSimDLL = C:\Program Files\AnsysEM\AnsysEM19.2\Win64\SIMPMSCoSim.dll
+# environment
+cppcheck = C:\Program Files\Cppcheck\cppcheckgui.exe
+# environment
+VSCODE_PID = 18860
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
+# variable set hash-table stats:
+# Load=103/1024=10%, Rehash=0, Collisions=12/129=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/SWATHI/Documents/GitHub/Emb-C, mtime 1619592533): 13 files, no impossibilities.
+# C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1619077294): 75 files, no impossibilities.
+# C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1619077301): 99 files, no impossibilities so far.
+
+# 187 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: Build
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  commands to execute (from `makefile', line 36):
+	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
+	
+
+.PHONY: all analysis clean doc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+project_main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-28 12:18:53
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Build:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  commands to execute (from `makefile', line 40):
+	mkdir $(BUILD_DIR)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+analysis: project_main.c src/user_utils.c
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	cppcheck --enable=all $^
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 52):
+	rm -rf $(call FixPath,$(BUILD_DIR)/*)
+	make -C documentation clean
+	
+
+# Not a target:
+src/user_utils.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+doc:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 48):
+	make -C documentation
+	
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/31=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Apr 28 12:18:57 2021
+
+ 
