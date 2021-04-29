@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Apr 29 19:21:50 2021
+# Make data base, printed on Thu Apr 29 21:23:54 2021
 
 # Variables
 
@@ -19,7 +19,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # environment
 CommonProgramFiles = C:\Program Files (x86)\Common Files
 # makefile (from `makefile', line 6)
-SRC = project_main.c src/user_utils.c
+SRC = project_main.c src/Activity1.c\ 
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -32,7 +32,10 @@ VSCODE_LOG_NATIVE = false
 HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
-# automatic
+# autom 
+makefile:8: *** missing separator.  Stop.
+ 
+atic
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile
 CURDIR := c:/Users/SWATHI/Documents/GitHub/Emb-C
@@ -94,8 +97,6 @@ ELECTRON_RUN_AS_NODE = 1
 ProgramW6432 = C:\Program Files
 # automatic
 %F = $(notdir $%)
-# makefile (from `makefile', line 15)
-FixPath = $(subst /,\,$1)
 # environment
 CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8788_XWBSOQRYRSBAINZU
 # environment
@@ -128,16 +129,12 @@ USERDOMAIN = LAPTOP-INA4C695
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
-# makefile (from `makefile', line 17)
-CC = avr-gcc.exe
 # makefile (from `makefile', line 3)
 BUILD_DIR = Build
-# makefile (from `makefile', line 19)
-AVR_OBJ_CPY = avr-objcopy.exe
 # default
 MAKE_VERSION := 3.81
 # makefile
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := 
 # environment
 OneDrive = C:\Users\SWATHI\OneDrive
 # automatic
@@ -148,8 +145,6 @@ DriverData = C:\Windows\System32\Drivers\DriverData
 LOCALAPPDATA = C:\Users\SWATHI\AppData\Local
 # default
 MAKE_COMMAND := make.exe
-# makefile (from `makefile', line 10)
-INC = -I inc
 # environment
 PROCESSOR_ARCHITEW6432 = AMD64
 # environment
@@ -219,7 +214,7 @@ VSCODE_PID = 8788
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=14/135=10%
+# Load=99/1024=10%, Rehash=0, Collisions=7/108=6%
 
 # Pattern-specific Variable Values
 
@@ -227,7 +222,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
 
 # Directories
 
-# . (key c:/Users/SWATHI/Documents/GitHub/Emb-C, mtime 1619676420): 14 files, no impossibilities.
+# . (key c:/Users/SWATHI/Documents/GitHub/Emb-C, mtime 1619709704): 14 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1619077294): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1619077301): 99 files, no impossibilities so far.
 
@@ -239,37 +234,9 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
 
 # Files
 
-all: Build
-#  Phony target (prerequisite of .PHONY).
+# Not a target:
+all:
 #  Command-line target.
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: `'
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := all
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := Build
-# automatic
-# | := 
-# automatic
-# < := Build
-# automatic
-# ^ := Build
-# automatic
-# ? := Build
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=3/17=18%
-#  commands to execute (from `makefile', line 36):
-	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
-	
-
-.PHONY: all analysis clean doc
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -281,28 +248,10 @@ all: Build
 #  File has not been updated.
 
 # Not a target:
-project_main.c:
+makefile:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  Last modified 2021-04-28 12:18:53
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-Build:
-#  Implicit rule search has not been done.
-#  Last modified 2021-04-29 11:37:00
-#  File has been updated.
-#  Successfully updated.
-#  commands to execute (from `makefile', line 40):
-	mkdir $(BUILD_DIR)
-	
 
 # Not a target:
 .SUFFIXES:
@@ -310,42 +259,8 @@ Build:
 #  Modification time never checked.
 #  File has not been updated.
 
-analysis: project_main.c src/user_utils.c
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 44):
-	cppcheck --enable=all $^
-	
-
-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 52):
-	rm -rf $(call FixPath,$(BUILD_DIR)/*)
-	make -C documentation clean
-	
-
-# Not a target:
-src/user_utils.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-doc:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 48):
-	make -C documentation
-	
-
 # files hash-table stats:
-# Load=11/1024=1%, Rehash=0, Collisions=0/31=0%
+# Load=4/1024=0%, Rehash=0, Collisions=0/5=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -357,6 +272,6 @@ doc:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Apr 29 19:21:50 2021
+# Finished Make data base on Thu Apr 29 21:23:54 2021
 
  
