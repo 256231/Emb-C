@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "act2header.h": "c"
+        "act2header.h": "c",
+        "io.h": "c"
     }
 }

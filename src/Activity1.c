@@ -1,3 +1,4 @@
+#define F_CPU 1600000UL
 #include <avr/io.h> // This contains the definitions of the terms used
 #include <util/delay.h>
 
