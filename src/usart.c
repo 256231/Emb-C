@@ -15,7 +15,7 @@ char USARTReadChar()
     }
     return UDR0;
 }
-char USARTWriteChar(char data)
+void USARTWriteChar(char data)
 {
     while(!(UCSR0A&(1<<UDRE0)))
     {

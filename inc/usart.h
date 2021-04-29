@@ -3,6 +3,6 @@
 
 void USARTInit(uint16_t);
 char USARTReadChar();
-char USARTWriteChar(char);
+void USARTWriteChar(char);
 
 #endif // USART_H_INCLUDED
