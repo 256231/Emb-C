@@ -1,0 +1,6 @@
+#ifndef ACT3HEADER_H_INCLUDED
+#define ACT3HEADER_H_INCLUDED
+
+int Activity3(void);
+
+#endif // ACT3HEADER_H_INCLUDED

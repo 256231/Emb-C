@@ -1,0 +1,6 @@
+#ifndef ACT1HEADER_H_INCLUDED
+#define ACT1HEADER_H_INCLUDED
+
+int Activity1();
+
+#endif // ACT1HEADER_H_INCLUDED

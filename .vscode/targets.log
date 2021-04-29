@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Wed Apr 28 12:18:57 2021
+# Make data base, printed on Thu Apr 29 19:21:50 2021
 
 # Variables
 
@@ -65,9 +65,9 @@ SystemDrive = C:
 # environment
 CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
 # environment
-doxygen = C:\Program Files\doxygen\bin\doxywizard.exe
+doxygen = C:\Program Files\doxygen\bin
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-74c8a7f4-acc9-4c5e-b3cf-effb9a3f9805-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-090ca1c9-910a-41d5-b702-08afedc21c63-sock
 # environment
 platformcode = AN
 # environment
@@ -97,7 +97,7 @@ ProgramW6432 = C:\Program Files
 # makefile (from `makefile', line 15)
 FixPath = $(subst /,\,$1)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18860_LGEJJCMALOREMPFN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8788_XWBSOQRYRSBAINZU
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -105,7 +105,7 @@ COMPUTERNAME = LAPTOP-INA4C695
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-AVR32_HOME = C:\WinAVR-20100110
+AVR32_HOME = C:\WinAVR-20100110\bin
 # environment
 USERNAME = SWATHI
 # environment
@@ -213,13 +213,13 @@ PROCESSOR_LEVEL = 6
 # environment
 SIMPMSCoSimDLL = C:\Program Files\AnsysEM\AnsysEM19.2\Win64\SIMPMSCoSim.dll
 # environment
-cppcheck = C:\Program Files\Cppcheck\cppcheckgui.exe
+cppcheck = C:\Program Files\Cppcheck
 # environment
-VSCODE_PID = 18860
+VSCODE_PID = 8788
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=12/129=9%
+# Load=103/1024=10%, Rehash=0, Collisions=14/135=10%
 
 # Pattern-specific Variable Values
 
@@ -227,11 +227,11 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
 
 # Directories
 
-# . (key c:/Users/SWATHI/Documents/GitHub/Emb-C, mtime 1619592533): 13 files, no impossibilities.
+# . (key c:/Users/SWATHI/Documents/GitHub/Emb-C, mtime 1619676420): 14 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1619077294): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1619077301): 99 files, no impossibilities so far.
 
-# 187 files, no impossibilities in 3 directories.
+# 188 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -243,11 +243,28 @@ all: Build
 #  Phony target (prerequisite of .PHONY).
 #  Command-line target.
 #  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := Build
+# automatic
+# | := 
+# automatic
+# < := Build
+# automatic
+# ^ := Build
+# automatic
+# ? := Build
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+# Load=8/32=25%, Rehash=0, Collisions=3/17=18%
 #  commands to execute (from `makefile', line 36):
 	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).elf)
 	
@@ -280,28 +297,9 @@ makefile:
 
 Build:
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: `'
-#  File does not exist.
+#  Last modified 2021-04-29 11:37:00
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := Build
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := 
-# automatic
-# | := 
-# automatic
-# < := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  Successfully updated.
 #  commands to execute (from `makefile', line 40):
 	mkdir $(BUILD_DIR)
 	
@@ -359,6 +357,6 @@ doc:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Apr 28 12:18:57 2021
+# Finished Make data base on Thu Apr 29 19:21:50 2021
 
  
