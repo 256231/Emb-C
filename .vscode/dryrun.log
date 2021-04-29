@@ -1,7 +1,6 @@
 make.exe --dry-run --keep-going --print-directory
 make.exe: Entering directory `c:/Users/SWATHI/Documents/GitHub/Emb-C'
  
-makefile:8: *** missing separator.  Stop.
- 
+avr-gcc.exe -g -Wall -Os -mmcu=atmega328  -I inc project_main.c src/Activity1.c src/Activity2.c src/Activity3.c src/usart.c -o Build\Blinky.elf
 make.exe: Leaving directory `c:/Users/SWATHI/Documents/GitHub/Emb-C'
  
