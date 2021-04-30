@@ -8,7 +8,7 @@
 |:--:|:--:|
 |![1](simulation/1.png)|![2](simulation/2.png)|
 
-### Outputs based on Heater(ON) Temperature status after Passenger occupied the seat
+### Outputs based on Heater(ON state) Temperature status after Passenger occupied the seat
 
 |At 20°C (20% Dutycycle)|At 25°C (40% Dutycycle)|At 29°C (70% Dutycycle)|At 33°C (95% Dutycycle)|
 |:--:|:--:|:--:|:--:|
