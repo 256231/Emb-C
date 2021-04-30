@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Thu Apr 29 21:33:18 2021
+# Make data base, printed on Fri Apr 30 11:15:05 2021
 
 # Variables
 
@@ -49,7 +49,7 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # environment
-SystemRoot = C:\WINDOWS
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_NODE_CACHED_DATA_DIR = C:\Users\SWATHI\AppData\Roaming\Code\CachedData\3c4e3df9e89829dce27b7b5c24508306b151f30d
 # environment
@@ -63,18 +63,20 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 SystemDrive = C:
 # environment
-CommonProgramFiles(x86) = C:\Program Files (x86)\Common Fil 
-es
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
 # environment
 doxygen = C:\Program Files\doxygen\bin
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-090ca1c9-910a-41d5-b702-08afedc21c63-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-09083628-80f7-4ffb-9609-1e6b9fc63728-sock
 # environment
 platformcode = AN
 # environment
 VSCODE_CWD = C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code
 # environment
-PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C;C:\Users\SWATHI\AppData\Local\Microsoft\WindowsApps;C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SWATHI\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Dr. Memory\bin\
+SystemRoot = C:\WINDOWS
+# environment
+PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System 
+32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C;C:\Users\SWATHI\AppData\Local\Microsoft\WindowsApps;C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SWATHI\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Dr. Memory\bin\
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
@@ -98,7 +100,7 @@ ProgramW6432 = C:\Program Files
 # makefile (from `makefile', line 18)
 FixPath = $(subst /,\,$1)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8788_XWBSOQRYRSBAINZU
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15192_UALQCHMJQXWIKBXX
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -214,13 +216,15 @@ PROCESSOR_LEVEL = 6
 # environment
 SIMPMSCoSimDLL = C:\Program Files\AnsysEM\AnsysEM19.2\Win64\SIMPMSCoSim.dll
 # environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
 cppcheck = C:\Program Files\Cppcheck
 # environment
-VSCODE_PID = 8788
+VSCODE_PID = 15192
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=14/135=10%
+# Load=105/1024=10%, Rehash=0, Collisions=15/137=11%
 
 # Pattern-specific Variable Values
 
@@ -376,6 +380,6 @@ doc:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Apr 29 21:33:18 2021
+# Finished Make data base on Fri Apr 30 11:15:05 2021
 
  

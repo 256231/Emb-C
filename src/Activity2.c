@@ -9,7 +9,7 @@ void InitADC()
 {
  // Select Vref=AVcc
  ADMUX = (1<<REFS0);
- //set prescaller to 128 and enable ADC
+
  ADCSRA = (1<<ADEN)|(7<<ADPS0);
 }
 uint16_t ReadADC(uint8_t ch)

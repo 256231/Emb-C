@@ -6,15 +6,15 @@
 #include "Act1header.h" 
 #include "Act2header.h" 
 #include "Act3header.h" 
-#include "usart.h" 
+#include "Act4header.h" 
 
 int main(void)
 {
 
 InitADC();
-uint16_t temp;
+uint16_t temp; //variable to read ADC values
 
-Activity1();//calls functions of Activity 1
+Activity1();//calls functions & macros under Activity 1
 Activity3();//Macros defined under Activity 3
 
 USARTInit(103);
@@ -30,11 +30,13 @@ _delay_ms(200); // delay of 200 milliseconds
      else
      {
     PORTD = 0b00000000; //Turn LED off if either or neither of conditions satisfied
-    _delay_ms(200); // delay of 200 milliseconds
+    _delay_ms(200); 
 }
-
+if((PINB & (1 << PINB4))&& (PINB & (1 << PINB5)))
+{   /* if Passenger has occupied the seat and 
+       switched ON the heater */
      temp=ReadADC(0);//variable temp reads values at ADC of potentiometer values
-    _delay_ms(200);//delay of 200 milliseconds
+    _delay_ms(200);
 
     if(temp>=0&&temp<=200)
      { /*PWM wave generated with 20% duty cycle if ADC value
@@ -91,6 +93,7 @@ _delay_ms(200); // delay of 200 milliseconds
             i++;
         }
     }
+}
 }
     return 0;
 }
