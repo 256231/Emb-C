@@ -6,9 +6,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
- 
 
-# Make data base, printed on Fri Apr 30 11:15:05 2021
+# Make data base, printed on Fri Apr 30 14:35:16 2021
 
 # Variables
 
@@ -19,7 +18,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # environment
 CommonProgramFiles = C:\Program Files (x86)\Common Files
 # makefile (from `makefile', line 6)
-SRC = project_main.c src/Activity1.c src/Activity2.c src/Activity3.c src/usart.c
+SRC = project_main.c src/Activity1.c src/Activity2.c src/Activity3.c src/Activity4.c
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -75,8 +74,7 @@ VSCODE_CWD = C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code
 # environment
 SystemRoot = C:\WINDOWS
 # environment
-PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System 
-32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C;C:\Users\SWATHI\AppData\Local\Microsoft\WindowsApps;C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SWATHI\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Dr. Memory\bin\
+PATH = C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\MinGW\bin;C;C:\Users\SWATHI\AppData\Local\Microsoft\WindowsApps;C:\Users\SWATHI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SWATHI\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Dr. Memory\bin\
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
@@ -232,7 +230,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-INA4C695
 
 # Directories
 
-# . (key c:/Users/SWATHI/Documents/GitHub/Emb-C, mtime 1619709704): 14 files, no impossibilities.
+# . (key c:/Users/SWATHI/Documents/GitHub/Emb-C, mtime 1619773112): 14 files, no impossibilities.
 # C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1619077294): 75 files, no impossibilities.
 # C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1619077301): 99 files, no impossibilities so far.
 
@@ -292,6 +290,12 @@ project_main.c:
 #  File has not been updated.
 
 # Not a target:
+src/Activity4.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 src/Activity3.c:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -300,7 +304,7 @@ src/Activity3.c:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-04-29 21:30:28
+#  Last modified 2021-04-30 14:35:14
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -321,13 +325,7 @@ Build:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-src/usart.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-analysis: project_main.c src/Activity1.c src/Activity2.c src/Activity3.c src/usart.c
+analysis: project_main.c src/Activity1.c src/Activity2.c src/Activity3.c src/Activity4.c
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -380,6 +378,6 @@ doc:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Apr 30 11:15:05 2021
+# Finished Make data base on Fri Apr 30 14:35:16 2021
 
  
