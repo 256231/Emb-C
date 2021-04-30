@@ -56,7 +56,7 @@ if((PINB & (1 << PINB4))&& (PINB & (1 << PINB5)))
      temp=ReadADC(0);   //variable temp reads values at ADC of potentiometer values
     _delay_ms(200);
 
-    if(temp>=0&&temp<=200)
+    if(temp<=200)
      { 
          /*PWM wave generated with 20% duty cycle if ADC value
 	 is between 0 and 200 as temperature is 20°C*/
