@@ -1,4 +1,4 @@
-DOXY_FILE = Passengr Heat Controller
+DOXY_FILE = Passenger Heat Controller
 BUILD_FILE = html
 
 FixPath = $(subst /,\,$1)

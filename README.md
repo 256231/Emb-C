@@ -10,7 +10,7 @@
 
 ### Outputs based on Heater(ON) Temperature status after Passenger occupied the seat
 
-|At 20°C (20% Dutycycle)|At 25°C (40% Dutycycle)|At 29°C (70% Dutycycle|At 33°C (95% Dutycycle)|
+|At 20°C (20% Dutycycle)|At 25°C (40% Dutycycle)|At 29°C (70% Dutycycle)|At 33°C (95% Dutycycle)|
 |:--:|:--:|:--:|:--:|
 |![20](simulation/20.png)|![25](simulation/25.png)|![29](simulation/29.png)|![33](simulation/33.png)|
 
