@@ -1,6 +1,5 @@
 make.exe --dry-run --keep-going --print-directory
 make.exe: Entering directory `c:/Users/SWATHI/Documents/GitHub/Emb-C'
 avr-gcc.exe -g -Wall -Os -mmcu=atmega328  -I inc project_main.c src/Activity1.c src/Activity2.c src/Activity3.c src/Activity4.c -o Build\Blinky.elf
- 
 make.exe: Leaving directory `c:/Users/SWATHI/Documents/GitHub/Emb-C'
  
