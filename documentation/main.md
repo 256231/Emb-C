@@ -1,1 +1,1 @@
-@mainpage Blinky Example by Bharath G @subpage project_main.c
+@mainpage Passenger Heat Controller by Y Swathi @subpage project_main.c

@@ -1,14 +1,20 @@
-# Embedded C Programming Examples with Continuous Integration and Code Quality
+# Embedded C Programming Project with Continuous Integration and Code Quality
 
-# Passenger Heat Controller
+## Passenger Heat Controller
 
-## In Action
+### Outputs based on Passenger Occupancy & Heater status 
 
-|Passenger not occupied seat|Passenger occupied seat & not switched on heater|Passenger occupied seat & switched on Heater|
-|:--:|:--:|:--:|
-|![1](simulation/1.png)|![2](simulation/2.png)|![3](simulation/3.png)|
+|Passenger not occupied seat|Passenger occupied seat & not switched on heater|
+|:--:|:--:|
+|![1](simulation/1.png)|![2](simulation/2.png)|
 
-#### CI and Code Quality
+### Outputs based on Heater(ON) Temperature status after Passenger occupied the seat
+
+|At 20°C (20% Dutycycle)|At 25°C (40% Dutycycle)|At 29°C (70% Dutycycle|At 33°C (95% Dutycycle)|
+|:--:|:--:|:--:|:--:|
+|![20](simulation/20.png)|![25](simulation/25.png)|![29](simulation/29.png)|![33](simulation/33.png)|
+
+### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
